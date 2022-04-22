@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2f5a1cd2-dd79-471b-8d12-1035402d2ec5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ab7ac2cb-8f08-4d57-b1ba-5d6c91c887b0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1f89454e-6fb0-46d8-96d0-9fbba203d344}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Advance.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="carea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cdate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CExcept.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGeometry.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cqual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cshut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSection.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cresults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="error.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basedef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BASETYPE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="carea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CExcept.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cqual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cresults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cshut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QUAL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

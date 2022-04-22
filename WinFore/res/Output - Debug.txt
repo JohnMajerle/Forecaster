@@ -1,0 +1,35 @@
+Loaded 'C:\WINNT35\System32\ntdll.dll', no matching symbolic information found.
+Loaded symbols for 'C:\WINNT35\system32\MFC42D.DLL'
+Loaded symbols for 'C:\WINNT35\system32\MSVCRTD.DLL'
+Loaded 'C:\WINNT35\system32\KERNEL32.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\GDI32.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\USER32.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\ADVAPI32.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\RPCRT4.DLL', no matching symbolic information found.
+Loaded symbols for 'C:\WINNT35\system32\MFCO42D.DLL'
+Loaded 'C:\WINNT35\system32\OLE32.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\OLEAUT32.DLL', no matching symbolic information found.
+Loaded symbols for 'C:\WINNT35\system32\MFCD42D.DLL'
+Loaded symbols for 'C:\WINNT35\system32\MSVCIRTD.DLL'
+Loaded 'C:\WINNT35\system32\shell32.dll', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\SHLWAPI.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\COMCTL32.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\THREED32.OCX', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\mfc40.dll', no matching symbolic information found.
+LDR: Automatic DLL Relocation in WinFore.exe
+LDR: Dll MSVCRT40.dll base 10200000 relocated due to collision with C:\WINNT35\System32\MSVCRTD.dll
+Loaded 'C:\WINNT35\system32\MSVCRT40.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\MSVCRT.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\OLEPRO32.DLL', no matching symbolic information found.
+Warning: CFile::GetStatus() returns m_attribute without high-order flags.
+Loaded 'C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\msjet35.dll', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\VBAJET32.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\vbar332.dll', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\COMDLG32.DLL', no matching symbolic information found.
+Loaded 'C:\WINNT35\system32\MSIDLE.DLL', no matching symbolic information found.
+The thread 0x3C has exited with code 0 (0x0).
+The thread 0xE4 has exited with code 0 (0x0).
+The thread 0x10D has exited with code 0 (0x0).
+The thread 0xFC has exited with code 0 (0x0).
+The program 'C:\Projects\WinFore\Debug\WinFore.exe' has exited with code 0 (0x0).

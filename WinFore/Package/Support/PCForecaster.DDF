@@ -1,0 +1,57 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="VBFore.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"VBFore.exe"
+"MSVBVM60.DLL"
+"OLEAUT32.DLL"
+"OLEPRO32.DLL"
+"ASYCFILT.DLL"
+"STDOLE2.TLB"
+"COMCAT.DLL"
+"DAO360.DLL"
+"MSJET40.DLL"
+"MSJTER40.DLL"
+"MSJINT40.DLL"
+"VBAJET32.DLL"
+"EXPSRV.DLL"
+"MSWSTR10.DLL"
+"MSWDAT10.DLL"
+"MSRD2X40.DLL"
+"MSRD3X40.DLL"
+"MSREPL40.DLL"
+"MSJTES40.DLL"
+"VB5DB.DLL"
+"MSCOMCTL.OCX"
+"SSCALA32.OCX"
+"threed32.ocx"
+"MFC40.DLL"
+"MSVCRT40.DLL"
+"VCF132.OCX"
+"ssdw3a32.ocx"
+"MFC42.DLL"
+"MSVCRT.DLL"
+"ssdw3b32.ocx"
+"ssmedt32.dll"
+"ssprn32.dll"
+"COMDLG32.OCX"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
+"VCMine.exe"
+"VCReport.exe"
+"WinFore.exe"
+"OC30.DLL"
+"MSEXCL40.DLL"
+"MSTEXT40.DLL"
+"MSXBDE40.DLL"

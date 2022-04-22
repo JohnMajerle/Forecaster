@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1778
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "forelib", "forelib.vcxproj", "{3311A520-499C-4D8E-B1E0-26B2ADC52E2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3311A520-499C-4D8E-B1E0-26B2ADC52E2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{3311A520-499C-4D8E-B1E0-26B2ADC52E2B}.Debug|x86.Build.0 = Debug|Win32
+		{3311A520-499C-4D8E-B1E0-26B2ADC52E2B}.Release|x86.ActiveCfg = Release|Win32
+		{3311A520-499C-4D8E-B1E0-26B2ADC52E2B}.Release|x86.Build.0 = Release|Win32
+		{3311A520-499C-4D8E-B1E0-26B2ADC52E2B}.Template|x86.ActiveCfg = Template|Win32
+		{3311A520-499C-4D8E-B1E0-26B2ADC52E2B}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80023034-A6EE-49DA-A61E-64FBAB06CA27}
+	EndGlobalSection
+EndGlobal

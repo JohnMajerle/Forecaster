@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{A49B6354-FFC0-4B97-BF58-27EEF4091A52}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\WinFore.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\WinFore.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\WinFore.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\WinFore.exe</OutputFile>
+      <AdditionalDependencies>..\Classlib\Debug\classlib.lib;..\forelib\Debug\forelib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\WinFore.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\WinFore.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\WinFore.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\WinFore.exe</OutputFile>
+      <AdditionalDependencies>..\Classlib\Debug\classlib.lib;..\forelib\Debug\forelib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AdjustSet.cpp" />
+    <ClCompile Include="AreaSet.cpp" />
+    <ClCompile Include="CalExSet.cpp" />
+    <ClCompile Include="CalSet.cpp" />
+    <ClCompile Include="CaseDlg.cpp" />
+    <ClCompile Include="CaseSet.cpp" />
+    <ClCompile Include="CaseView.cpp" />
+    <ClCompile Include="cerror.cpp" />
+    <ClCompile Include="CForeDB.CPP" />
+    <ClCompile Include="ComputeDlg.cpp" />
+    <ClCompile Include="crack.cpp" />
+    <ClCompile Include="ctrlext.cpp" />
+    <ClCompile Include="DataDlg.cpp" />
+    <ClCompile Include="DateSet.cpp" />
+    <ClCompile Include="dlgsql.cpp" />
+    <ClCompile Include="GeometrySet.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OptionsDlg.cpp" />
+    <ClCompile Include="RateSet.cpp" />
+    <ClCompile Include="RefSet.cpp" />
+    <ClCompile Include="renamedl.cpp" />
+    <ClCompile Include="ResultsSet.cpp" />
+    <ClCompile Include="RunDlg.cpp" />
+    <ClCompile Include="SampleSet.cpp" />
+    <ClCompile Include="SectionSet.cpp" />
+    <ClCompile Include="ShutSet.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="thread.cpp" />
+    <ClCompile Include="vbfore.cpp" />
+    <ClCompile Include="WinFore.cpp" />
+    <ClCompile Include="WinForeDoc.cpp" />
+    <ClCompile Include="WinForeView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinFore.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdjustSet.h" />
+    <ClInclude Include="AreaSet.h" />
+    <ClInclude Include="CalExSet.h" />
+    <ClInclude Include="CalSet.h" />
+    <ClInclude Include="CaseDlg.h" />
+    <ClInclude Include="CaseSet.h" />
+    <ClInclude Include="CaseView.h" />
+    <ClInclude Include="cerror.h" />
+    <ClInclude Include="CForeDB.h" />
+    <ClInclude Include="ComputeDlg.h" />
+    <ClInclude Include="crack.h" />
+    <ClInclude Include="ctrlext.h" />
+    <ClInclude Include="DataDlg.h" />
+    <ClInclude Include="dlgsql.h" />
+    <ClInclude Include="GeometrySet.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OptionsDlg.h" />
+    <ClInclude Include="RateSet.h" />
+    <ClInclude Include="RefSet.h" />
+    <ClInclude Include="renamedl.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResultsSet.h" />
+    <ClInclude Include="RunDlg.h" />
+    <ClInclude Include="SampleSet.h" />
+    <ClInclude Include="SectionSet.h" />
+    <ClInclude Include="ShutSet.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="thread.h" />
+    <ClInclude Include="vbfore.h" />
+    <ClInclude Include="WinFore.h" />
+    <ClInclude Include="WinForeDoc.h" />
+    <ClInclude Include="WinForeView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Edit.ico" />
+    <Image Include="Folder01.ico" />
+    <Image Include="Folder02.ico" />
+    <Image Include="Graph03.ico" />
+    <Image Include="Note12.ico" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\miner.bmp" />
+    <Image Include="res\smallico.bmp" />
+    <Image Include="res\Splash.bmp" />
+    <Image Include="res\WinFore.ico" />
+    <Image Include="res\WinForeDoc.ico" />
+    <Image Include="Splsh16.bmp" />
+    <Image Include="Sql.ico" />
+    <Image Include="Trffc10a.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\WinFore.rc2" />
+    <CustomBuild Include="WinFore.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
